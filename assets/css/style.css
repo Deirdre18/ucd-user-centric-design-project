@@ -58,20 +58,15 @@ h4 {
     display: inline-block;
 }
 
-.section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
-}
 .row-table {
     display: table;
 }
 
 .section-heading {
-    font-family:  "exo" sans-serif;
+    font-family:  "exo", sans-serif;
     font-weight: 300;
     margin-top:  25px;
-    margin-bottom 40px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -213,4 +208,10 @@ footer .cv-pdf i:hover {
     margin: 20px;
 }
 
-
+@media(min-width: 992px) {
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+}
