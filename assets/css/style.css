@@ -78,6 +78,7 @@ header {
 .heading {
     margin-left: 50px;
 }
+
 /*setting browser prefixes for safari, opera and IE*/
 .logo {
     background: url("../images/me4.png");
@@ -88,7 +89,9 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-	-o-transition: all 0.35s ease-in-out;}
+	-o-transition: all 0.35s ease-in-out;
+    
+}
 
 .name {
     font-family: "Exo", sans-serif;
@@ -164,6 +167,7 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+
 /*styling font-awesome icons*/
 footer .cv-pdf i {
     color: #fafafa;
@@ -171,6 +175,7 @@ footer .cv-pdf i {
     font-size: 18px;
     padding-left: 5px;
 }
+
 /*setting browser prefixes for safari, opera and IE and creating soft easing effect*/
 footer .cv-pdf i:hover {
     color: #e84610;
@@ -183,6 +188,7 @@ footer .cv-pdf i:hover {
 .social-links {
     padding-bottom: 15px;
 }
+
 /*use border-radius to create perfect circle around edges, which will be semi-transparent.  Setting border-radious to 50% and styling font-awesome icon, as well as reusing transition hover effects for .cv-pdf hover.*/
 .social-links li a i {
     width: 32px;
@@ -199,10 +205,12 @@ footer .cv-pdf i:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 /*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
 .social-links li a i:hover {
     background: #e84610;
 }
+
 /*creating negative space between footer and header ("breathing space"). Setting margin (top, right, bottom, left).*/
 #footer-details {
     margin: 20px;
@@ -214,4 +222,15 @@ footer .cv-pdf i:hover {
     float: none;
     display: table-cell;
 }
+}
+
+/*--------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color:  #e67e22;
+}
+
+ .three-reasons-heading {
+     margin-bottom: 15px;
 }
